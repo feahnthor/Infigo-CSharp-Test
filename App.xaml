@@ -1,0 +1,26 @@
+﻿<Application x:Class="Infigo_api_sucks_solution.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Infigo_api_sucks_solution"
+             xmlns:viewModel="clr-namespace:Infigo_api_sucks_solution.MVM.ViewModel" 
+             xmlns:view="clr-namespace:Infigo_api_sucks_solution.MVM.View"
+             StartupUri="MainWindow.xaml"
+             SessionEnding="App_SessionEnding">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--ADD ANY NEW VIEWS OR MODEL ABOVE xmlns = xmls NameSpace, start typing file name and it should auto-fill-->
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
+                <view:DiscoveryView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

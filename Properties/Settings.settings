@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Infigo_api_sucks_solution.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CsvToJsonOutputFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\172.16.2.44\Websites\intranet\v_1.0\temp\jobs\bgtown\testing\</Value>
+    </Setting>
+    <Setting Name="CSVToJsonRowToBaseJsonFileOutputName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"Name"</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
