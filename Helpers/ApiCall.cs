@@ -24,7 +24,7 @@ namespace Infigo_api_sucks_solution.Helpers
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json")); // tells the server to send data in JSON format
-            client.DefaultRequestHeaders.Add("Bearer", "NjMwMWQwODMtZmEyMS00ZTY4LTgwZWQtMzgzZjc4MDQ1ZGMw");
+            client.DefaultRequestHeaders.Add("Bearer", "MYAPITOKEN");
 
             try
             {
