@@ -15,7 +15,7 @@ public static class Constants //get set; make the static requirement useless
     public static string VariantsPageUrl = @"https://backgroundtown.com/Admin/ProductVariant/Edit/";
 
     // Locators for the Site
-    public static string email = @"s.harschnek@acilab.com";
-    public static string password = "DarkDream2022";
+    public static string email = @"username@email.com";
+    public static string password = "password";
 }
 
