@@ -1,6 +1,6 @@
-# Infigo-Api-Sucks
+# Infigo-CSharp-Test
 Created by Henry F.
-First attempt at a graphical version of automation for Infigo
+First test at a graphical version of automation for Infigo websites written in C#
 
 ## Understanding Code
 ### Entry Point
